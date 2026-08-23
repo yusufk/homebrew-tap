@@ -7,7 +7,7 @@ cask "zoomacit" do
   desc "ZoomIt-style screen zoom, draw, and annotation tool for macOS"
   homepage "https://github.com/yusufk/ZoomacIt"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "ZoomacIt.app"
 
