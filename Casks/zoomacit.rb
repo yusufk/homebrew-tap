@@ -1,8 +1,8 @@
 cask "zoomacit" do
-  version :latest
-  sha256 :no_check
+  version "1.0.0"
+  sha256 "57756e98d634df84262a9376c4b52ec9385e7c8a9cfe9e8cb2d6b24134857d45"
 
-  url "https://github.com/yusufk/ZoomacIt/releases/latest/download/ZoomacIt-v#{version}.dmg"
+  url "https://github.com/yusufk/ZoomacIt/releases/download/v#{version}/ZoomacIt-v#{version}.dmg"
   name "ZoomacIt"
   desc "ZoomIt-style screen zoom, draw, and annotation tool for macOS"
   homepage "https://github.com/yusufk/ZoomacIt"
