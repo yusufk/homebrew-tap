@@ -1,6 +1,6 @@
 cask "zoomacit" do
-  version "1.0.0"
-  sha256 "57756e98d634df84262a9376c4b52ec9385e7c8a9cfe9e8cb2d6b24134857d45"
+  version "1.0.1"
+  sha256 "04c789fcfb1914f8bb115735e90428f1bfe364133399e5198339bf1fc119dda7"
 
   url "https://github.com/yusufk/ZoomacIt/releases/download/v#{version}/ZoomacIt-v#{version}.dmg"
   name "ZoomacIt"
