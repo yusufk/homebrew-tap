@@ -1,6 +1,6 @@
 cask "headtrack" do
-  version "0.1.2"
-  sha256 "57c248ce52c53ab0d13f4bd5133a9928de8f6e4cb2f221c0cd1f9ac1bf04b3f1"
+  version "0.1.3"
+  sha256 "b72556e84fd2e34931e03bc327c5983a6912242193cb60581474a174c2e9c4b0"
 
   url "https://github.com/yusufk/head-tracked-audio/releases/download/v#{version}/HeadTrack-v#{version}.dmg"
   name "HeadTrack"
