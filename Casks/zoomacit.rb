@@ -11,10 +11,8 @@ cask "zoomacit" do
 
   app "ZoomacIt.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/ZoomacIt.app"],
-                   sudo: false
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/ZoomacIt.app"]
   end
 
   zap trash: [
