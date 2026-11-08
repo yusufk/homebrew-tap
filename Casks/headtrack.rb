@@ -11,10 +11,8 @@ cask "headtrack" do
 
   app "HeadTrack.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/HeadTrack.app"],
-                   sudo: false
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/HeadTrack.app"]
   end
 
   zap trash: [
